@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url(Back.jpeg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    color: #fff ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a, .dropbtn {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+.menu a:hover, .dropdown:hover .dropbtn {
+    background-color: #575757;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: gray;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.register a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px; 
+    background: #D2BD0A;
+}
+.register a:hover {
+     border: 1px solid #D2BD0A;
+     background: transparent;
+}
+.h-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.h-text span {
+    letter-spacing: 5px;
+}
+.h-text h1 {
+    font-size: 3.5em;
+}
+.h-text a {
+    text-decoration: none;
+    background: #D2BD0A;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 5px;
+    border-radius: 10px;
+}
+.h-text a:hover {
+    border: 1px solid #D2BD0A;
+    background: transparent;
+}
